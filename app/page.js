@@ -75,10 +75,10 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section className="bg-gray-50 py-16">
+      <section className="bg-gray-300 py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4">Why Choose Our URL Shortener?</h2>
+            <h2 className="text-3xl text-black font-bold mb-4">Why Choose Our URL Shortener?</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Simple, fast, and reliable link shortening with powerful features to help you track and manage your links.
             </p>
@@ -112,7 +112,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-blue-500 text-white py-16">
+      <section className=" text-white py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Shortening URLs?</h2>
           <p className="mb-8 text-blue-100">Create your first shortened link in seconds. No registration required.</p>
