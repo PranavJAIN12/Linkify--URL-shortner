@@ -91,7 +91,7 @@ const About = () => {
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-950 flex items-center justify-center text-blue-400 font-semibold mr-4">
-                  1
+                  
                 </div>
                 <div>
                   <h3 className="font-semibold mb-2 text-white">

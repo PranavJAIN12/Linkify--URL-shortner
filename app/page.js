@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      {/* Hero Section */}
+     
       <section className="container mx-auto px-4 py-16">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
@@ -60,6 +60,9 @@ export default function Home() {
                   Github
                 </Button>
               </Link>
+              <Link href="/register">
+              <Button>Register</Button>
+              </Link>
             </div>
           </div>
           <div className="relative aspect-video lg:aspect-square">
@@ -74,7 +77,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
+     
       <section className="bg-gray-300 py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -91,7 +94,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section */}
+      
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8 text-center">
@@ -111,7 +114,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      
       <section className=" text-white py-16">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Shortening URLs?</h2>
